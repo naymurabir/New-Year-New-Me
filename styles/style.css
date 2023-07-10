@@ -45,3 +45,54 @@ header {
     border: 0;
     border-radius: 2px
 }
+
+/* Main Section */
+main {
+    /* width: 1140px; */
+}
+
+/* Failure Section */
+.failure-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    /* margin-top: 130px;
+    margin-bottom: 130px; */
+    height: 600px;
+    /* background-color: antiquewhite; */
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.person-img {
+    width: 350px;
+    margin-left: 250px;
+}
+
+.failure-half-width {
+    width: 50%;
+}
+
+ul li::before {
+    content: '✓ ';
+    color: #16D887;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* My Plan Section */
